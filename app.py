@@ -233,8 +233,6 @@ async def send_customer_to_admin(update: Update, context: ContextTypes.DEFAULT_T
         f"💍 وضعیت تأهل: {data.get('marital', '-')}\n"
         f"👶 تعداد فرزندان: {data.get('children', '-')}\n"
         f"📞 شماره تماس: {data.get('phone', '-')}\n\n"
-        f"📱 Telegram: {username_text}\n"
-        f"🆔 Chat ID: `{update.effective_chat.id}`"
     )
 
     try:
