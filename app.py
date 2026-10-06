@@ -124,7 +124,7 @@ async def contact_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
     await update.message.reply_text(
-        "📞 *ارتباط با Phenix Visa*\n\n"
+        "Phenix Visa*\n\nارتباط با ما*📞"
         reply_markup=keyboard,
         parse_mode="Markdown",
     )
