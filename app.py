@@ -105,13 +105,13 @@ async def contact_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
             [
                 InlineKeyboardButton(
                     "📱 Instagram",
-                    url=INSTAGRAM,
+                    url="https://instagram.com/phenix.visa"
                 )
             ],
             [
                 InlineKeyboardButton(
                     "💬 WhatsApp",
-                    url=f"https://wa.me/{WHATSAPP}",
+                    url=f"https://wa.me/+33634810812",
                 )
             ],
             [
@@ -125,9 +125,6 @@ async def contact_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await update.message.reply_text(
         "📞 *ارتباط با Phenix Visa*\n\n"
-        f"☎️ تلفن دفتر: {OFFICE_PHONE}\n"
-        f"💬 واتساپ: {WHATSAPP}\n"
-        "📱 اینستاگرام: @phenix.visa",
         reply_markup=keyboard,
         parse_mode="Markdown",
     )
