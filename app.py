@@ -30,10 +30,6 @@ if not TOKEN:
 # COMPANY INFORMATION
 # =========================
 
-OFFICE_PHONE = "02121000013"
-WHATSAPP = "+33634810812"
-INSTAGRAM = "https://www.instagram.com/phenix.visa/"
-
 # =========================
 # FLASK
 # =========================
