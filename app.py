@@ -241,7 +241,6 @@ async def send_customer_to_admin(update: Update, context: ContextTypes.DEFAULT_T
         await context.bot.send_message(
             chat_id=admin_id,
             text=message,
-            parse_mode="Markdown",
         )
     except Exception as e:
         print("Admin notification error:", e)
