@@ -121,7 +121,7 @@ async def contact_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
             [
                 InlineKeyboardButton(
                     "📞 تماس با دفتر",
-                    url=f"tel:+98{OFFICE_PHONE[1:]}",
+                    url="https://wa.me/982121000013"
                 )
             ],
         ]
